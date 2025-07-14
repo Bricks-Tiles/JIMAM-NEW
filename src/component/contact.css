@@ -1,0 +1,171 @@
+
+.Main-contact{
+    margin: 10%;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: #fafafa;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 10px 10px rgba(36, 36, 37, 0.37);
+    color: rgb(0, 0, 0);
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    /* width: 100%; */
+    
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.contact-txt{
+    background-color: #F23E12;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.Main-info{
+    font-size: 40px;
+}
+.work-m{
+    line-height: 1.5;
+}
+.work{
+    font-size: 20px;
+}
+
+.contact span{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    font-size: 12px;
+    color: #312c2b;
+}
+.contact span i{
+    color: #F23E12;
+}
+.contact h2{
+    font-size: 20px;
+}
+.contact p{
+    font-size: 12px;
+}
+
+.location-main{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.location-main i{
+    font-size: 25px;
+}
+
+.number-main{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.number-main i{
+    font-size: 25px;
+}
+.mail-main{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mail-main i{
+    font-size: 25px;
+}
+
+.details-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.details-icons i{
+    color: #F23E12;
+}
+.details-icons p{
+    color: #312c2b;
+}
+
+.form{
+    background-color: #fafafa;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 10px 10px rgba(36, 36, 37, 0.37);
+    color: rgb(0, 0, 0);
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.name input{
+    padding: 10px;
+    width: 100%;
+}
+
+.name-1{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.email input{
+    padding: 10px;
+    width: 100%;
+}
+
+.email-1{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.message textarea{
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.message textarea:focus{
+    outline:none;
+    border-color: #aaa;
+    box-shadow: 0 0 5px rgb(0, 0, 0), 0.1;
+}
+
+.form a{
+    background-color: #F23E12;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    color: #ffffff;
+}

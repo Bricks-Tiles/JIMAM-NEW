@@ -4,9 +4,9 @@ nav {
     background-color: transparent;
     color: #13127E;
     padding: 10px 40px;
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    left: 0;
+    left: 0; */
     z-index: 10;
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@ nav {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-ul {
+.nav-links{
     display: flex;
     gap: 60px;
     margin: 0;
