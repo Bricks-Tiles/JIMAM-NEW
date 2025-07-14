@@ -5,9 +5,9 @@ export const Contact = () => {
         <section>
             <div className='Main-contact'>
                 <div className='contact'>
-                    <p className='contact-txt'>Contact Us</p>
+                    <p className='contact-txt'><i class="fa-regular fa-user"></i> Contact Us</p>
                     <h1 className='Main-info'>How We Work The Process <br /> of Working With Jimam</h1>
-                    <hr />
+                    
                     <div className='work-m'>
                         <h2 className='work'>Work Hour</h2>
                         <span>
@@ -66,7 +66,7 @@ export const Contact = () => {
                         <textarea name="message" id="message" placeholder='Type your message here....'></textarea>
                     </div>
                     <a href="">
-                        <h2>Send</h2>
+                        <h2>Send <i class="fa-duotone fa-solid fa-arrow-up-right-from-square"></i></h2>
                     </a>
                 </div>
             </div>

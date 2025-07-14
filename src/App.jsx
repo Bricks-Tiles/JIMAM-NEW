@@ -12,6 +12,7 @@ const App = () => {
         <p>This is some example text to show the main area.</p>
         <p>Scroll down to see the footer at the bottom.</p>
       </div>
+      
       <Contact />
       <Footer />
     </div>
