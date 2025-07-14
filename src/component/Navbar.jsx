@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <nav>
             <img src={logo} alt="" className='logo' />
-            <ul>
+            <ul className='nav-links'>
                 <li><a href=""><FaHome /> Home</a></li>
                 <li><a href=""><FaUserFriends /> About Us</a></li>
                 <li><a href=""><FaServicestack /> Services</a></li>
