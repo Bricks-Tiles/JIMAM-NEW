@@ -40,7 +40,6 @@ const Footer = () => {
                         <ul className='footer-about-links'>
                             <li><a href="">About Us</a></li>
                             <li><a href="">Services</a></li>
-                            <li><a href="">Blog</a></li>
                             <li><a href="">Makerting</a></li>
                             <li><a href="">Testimonials</a></li>
                             <li><a href="">Contact us</a></li>
