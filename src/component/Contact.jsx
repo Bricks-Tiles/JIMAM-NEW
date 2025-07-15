@@ -6,7 +6,8 @@ export const Contact = () => {
             <div className='Main-contact'>
                 <div className='contact'>
                     <p className='contact-txt'><i class="fa-regular fa-user"></i> Contact Us</p>
-                    <h1 className='Main-info'>How We Work The Process <br /> of Working With Jimam</h1>
+                    <h1 className='Main-info'>How We Work with Jimam</h1>
+                    <p>Discover the stsp-by-step process of collaborating with Jimam, <br />from understanding your needs to deliving exceptional results</p>
                     
                     <div className='work-m'>
                         <h2 className='work'>Work Hour</h2>
