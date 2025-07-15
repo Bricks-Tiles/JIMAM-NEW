@@ -9,12 +9,13 @@ nav {
     left: 0; */
     z-index: 10;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     gap: 60px;
     margin: 0;
@@ -35,7 +36,7 @@ ul li:hover {
 .logo {
     width: 10%;
     height: 12vbh;
-    
+
 }
 
 .mail-link {
@@ -44,14 +45,11 @@ ul li:hover {
     transition: color 0.3s;
 }
 
-.mail-link:hover {
-    color: #ffc107;
-}
 
-button {
-    background-color: transparent;
-    color: #13127E;
-    border: 2px solid #000;
+.mail-link {
+    background-color: #32308a;
+    color: white;
+    /* border: 2px solid #000; */
     margin-left: 20px;
     padding: 10px 20px;
     cursor: pointer;
@@ -61,8 +59,89 @@ button {
     transition: all 0.3s ease;
 }
 
-button:hover {
+.mail-link:hover {
     background-color: #13127E;
-    color: #ffffff;
+   
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* Mobile menu hidden by default */
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    background: #eeebe7;
+    padding: 1rem;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    width: 200px;
+    z-index: 100;
+}
+
+.mobile-menu a {
+    color: #411c13;
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+.mail-link-mobile {
+    /* background-color: #411c13; */
+    width: 100%;
+    text-align: center;
+    color: white;
+    /* border: 2px solid #000; */
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+
+/* Show mobile menu when isOpen is true */
+.mobile-menu.show {
+    display: flex;
+}
+
+
+
+/* Responsive: Show hamburger and hide full nav on small screens */
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .logo {
+        width: 50%;
+        height: 10vbh;
+
+    }
+
+    button{
+        color: white;
+    }
+
+    .mail-link {
+        display: none;
+    }
+
+
+    .hamburger {
+        display: block;
+    }
+
 }

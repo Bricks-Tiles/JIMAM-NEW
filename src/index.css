@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Exile&family=Luckiest+Guy&family=Outfit:wght@100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Rubik+Maps&display=swap');
 @import "tailwindcss"; 
-/* Add this to your main CSS file (e.g., App.css or index.css) */
-body, #root {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.main-content {
-    flex: 1;
-}
 
 *{
     margin: 0;

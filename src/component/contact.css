@@ -1,171 +1,266 @@
-
-.Main-contact{
+.Main-contact {
     margin: 10%;
     margin-bottom: 0;
     margin-top: 0;
-    background-color: #fafafa;
+    background-color: #F4F1EE;
     backdrop-filter: blur(30px);
     box-shadow: 0px 10px 10px rgba(36, 36, 37, 0.37);
-    color: rgb(0, 0, 0);
+    color: #2E2E2E;
     padding: 20px 40px;
     display: flex;
     flex-direction: row;
+    gap: 20px;
     height: 80vh;
     /* width: 100%; */
-    
+
 }
 
-.contact{
+.contact {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    
+
 }
 
-.contact-txt{
-    background-color: #F23E12;
+.contact-txt {
+    background-color: #411c13;
     padding: 10px;
     width: 30%;
     text-align: center;
     color: #ffffff;
-    
+
 }
 
-.Main-info{
+.Main-info {
     font-size: 40px;
 }
-.work-m{
+
+.work-m {
     line-height: 1.5;
 }
-.work{
+
+.work {
     font-size: 20px;
 }
 
-.contact span{
+.contact span {
     display: flex;
     flex-direction: row;
     gap: 120px;
     font-size: 12px;
     color: #312c2b;
 }
-.contact span i{
-    color: #F23E12;
+
+.contact span i {
+    color: #743a2b;
 }
-.contact h2{
+
+.contact h2 {
     font-size: 20px;
 }
-.contact p{
+
+.contact p {
     font-size: 12px;
 }
 
-.location-main{
+.location-main {
     display: flex;
+    flex: row;
     align-items: center;
     gap: 10px;
 }
 
-.location-main i{
+.location-main i {
     font-size: 25px;
 }
 
-.number-main{
+.number-main {
     display: flex;
+    flex: row;
     align-items: center;
     gap: 10px;
 }
 
-.number-main i{
+.number-main i {
     font-size: 25px;
 }
-.mail-main{
+
+.mail-main {
     display: flex;
+    flex: row;
     align-items: center;
     gap: 10px;
 }
 
-.mail-main i{
+.mail-main i {
     font-size: 25px;
 }
 
-.details-icons{
+.details-icons {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.details-icons i{
-    color: #F23E12;
+.details-icons i {
+    color: #743a2b;
 }
-.details-icons p{
+
+.details-icons p {
     color: #312c2b;
 }
 
-.form{
+.form {
     background-color: #fafafa;
     backdrop-filter: blur(30px);
     box-shadow: 0px 10px 10px rgba(36, 36, 37, 0.37);
-    color: rgb(0, 0, 0);
+    color: #2E2E2E;
     padding: 20px 40px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     overflow: hidden;
 }
+.form input{
+    border: 1px solid #743a2b;
+}
 
-.name{
+.name {
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
 
-.name input{
+.name input {
     padding: 10px;
     width: 100%;
 }
 
-.name-1{
+.name-1 {
     display: flex;
     flex-direction: column;
     gap: 2px;
 }
 
-.email{
+.email {
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
 
-.email input{
+.email input {
     padding: 10px;
     width: 100%;
 }
 
-.email-1{
+.email-1 {
     display: flex;
     flex-direction: column;
     gap: 2px;
 }
 
-.message textarea{
+.message textarea {
     padding: 10px;
     width: 100%;
     height: 150px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #743a2b;
     border-radius: 5px;
     resize: vertical;
 }
 
-.message textarea:focus{
-    outline:none;
-    border-color: #aaa;
+.message textarea:focus {
+    outline: none;
+    border-color: #743a2b;
     box-shadow: 0 0 5px rgb(0, 0, 0), 0.1;
 }
 
-.form a{
-    background-color: #F23E12;
+.form a {
+    background-color:#411c13;
     padding: 10px;
     width: 30%;
     text-align: center;
     color: #ffffff;
+    font-size: 12px;
+}
+.form a i {
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+    .Main-contact {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 0;
+        margin: 0px;
+    }
+
+    .Main-info {
+        font-size: 20px;
+        /* text-align: center; */
+    }
+
+    .contact-txt {
+        width: 100%;
+    }
+
+    .contact span {
+        flex-direction: row;
+        align-items: center;
+        gap: 70px;
+        
+    }
+
+    .contact span i {
+        margin-bottom: 5px;
+    }
+
+    .details-icons {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .form {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .form h3{
+        
+        font-size: 12px;
+    }
+
+    .form i {
+        font-size: 15px;
+    }
+
+    .form a {
+        width: 100%;
+        text-align: center;
+    }
+    .details-icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        line-height: 20px;
+    }
+
+    .details-icons h2{
+        font-size: 20px;
+    }
+
+    .location-main{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .mail-main{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .number-main{
+        flex-direction: column;
+        gap: 10px;
+    }
 }

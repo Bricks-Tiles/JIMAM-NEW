@@ -66,9 +66,9 @@ const Footer = () => {
                             </a>
                             {/* <button className='footer-sub-bt'><i class="fas fa-bell"></i> Subscribe</button> */}
                         </span>
-                        <a href="">
+                        {/* <a href="">
                             <h3 className='bf-footer-h3-1'>Schedule Now</h3>
-                        </a>
+                        </a> */}
 
                     </div>
                 </div>
