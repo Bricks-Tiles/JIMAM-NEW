@@ -6,7 +6,7 @@ import { Homepage } from './component/Homepage'
 
 const App = () => {
   return (
-    <div className="app-container">
+    <div className="m-0 p-0">
       <Navbar />
       <Homepage />
       <Contact />
