@@ -3,6 +3,7 @@ import Navbar from './component/Navbar'
 import Footer from './component/Footer'
 import { Contact } from './component/Contact'
 import { Homepage } from './component/Homepage'
+import {Aboutus } from './component/Aboutus'
 
 const App = () => {
   return (
@@ -11,8 +12,10 @@ const App = () => {
       <Homepage />
       <Contact />
       <Footer />
+      <Aboutus />
     </div>
   )
 }
 
 export default App
+
